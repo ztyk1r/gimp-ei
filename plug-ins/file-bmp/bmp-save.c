@@ -498,10 +498,10 @@ save_image (GFile         *file,
           break;
 
         case RGBA_8888:
-          Mask[0] = 0x00ff0000;
-          Mask[1] = 0x0000ff00;
-          Mask[2] = 0x000000ff;
-          Mask[3] = 0xff000000;
+          Mask[0] = 0xff000000;
+          Mask[1] = 0x00ff0000;
+          Mask[2] = 0x0000ff00;
+          Mask[3] = 0x000000ff;
           break;
 
         case RGB_565:
